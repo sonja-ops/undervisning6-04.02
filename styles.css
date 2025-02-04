@@ -38,7 +38,8 @@ section {
 }
 
 .heroImg {
-  width: 50%;
+  width: 40%;
+  height: 70%;
   border: 1px solid black;
 }
 
@@ -52,8 +53,12 @@ section {
 .aboutText{
   width: 50%;
 }
+.aboutImgDiv{
+  width: 40%;
+}
 .aboutImg{
-  width: 50%;
+  width: 40%;
+  height: 40%;
   border: 1px solid black;
 }
 
@@ -87,4 +92,16 @@ section {
 footer {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width:426px) {
+  body {
+    background-color: red;
+  }
+  .hero{
+    flex-direction: column;
+  }
+  .about{
+    flex-direction: column;
+  }
 }
