@@ -42,6 +42,21 @@ section {
   border: 1px solid black;
 }
 
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutText{
+  width: 50%;
+}
+.aboutImg{
+  width: 50%;
+  border: 1px solid black;
+}
+
 .projects {
   height: 100vh;
 
