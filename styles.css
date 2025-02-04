@@ -104,4 +104,7 @@ footer {
   .about{
     flex-direction: column;
   }
+  .projectCard{
+    flex-direction: column;
+  }
 }
